@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filterable Gallery</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container-fluid pb-5">
+      <h2 class="text-center text-danger pt-5 pb-5 display-2 fw-bold">
+        Mercedes-Benz
+      </h2>
+      <section
+        class="container section1 text-center pt-5 pb-5 d-flex gap-3 justify-content-center flex-wrap"
+      >
+        <a
+          href="#"
+          class="btn btn-danger px-4 py-2 fs-4"
+          type="button"
+          data-filter="all"
+          >All</a
+        >
+        <a href="#" class="btn btn-danger px-4 py-2 fs-4" data-filter="amg"
+          >AMG</a
+        >
+        <a href="#" class="btn btn-danger px-4 py-2 fs-4" data-filter="maybach"
+          >Maybach</a
+        >
+        <a href="#" class="btn btn-danger px-4 py-2 fs-4" data-filter="sclass"
+          >S-Class</a
+        >
+        <a href="#" class="btn btn-danger px-4 py-2 fs-4" data-filter="vision6"
+          >Vision 6</a
+        >
+      </section>
+      <div class="container-fluid box row gy-5 gx-5 m-auto" id="store-items">
+        <div class="store-item amg col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/amg1.jpg"
+            ><img src="img/amg1.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item amg col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/amg2.jpg"
+            ><img src="img/amg2.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item amg col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/amg3.jpg"
+            ><img src="img/amg3.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item amg col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/amg4.jpg"
+            ><img src="img/amg4.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item amg col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/amg5.jpg"
+            ><img src="img/amg5.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item amg col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/amg6.jpg"
+            ><img src="img/amg6.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item amg col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/amg7.jpg"
+            ><img src="img/amg7.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item amg col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/amg8.jpg"
+            ><img src="img/amg8.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+
+        <div class="store-item maybach col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/maybach1.jpg"
+            ><img src="img/maybach1.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item maybach col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/maybach2.jpg"
+            ><img src="img/maybach2.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item maybach col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/maybach3.jpg"
+            ><img src="img/maybach3.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+
+        <div class="store-item sclass col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/sclass1.jpg"
+            ><img src="img/sclass1.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item sclass col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/sclass2.jpg"
+            ><img src="img/sclass2.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item sclass col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/sclass3.jpg"
+            ><img src="img/sclass3.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item sclass col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/sclass4.jpg"
+            ><img src="img/sclass4.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item sclass col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/sclass5.jpg"
+            ><img src="img/sclass5.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item sclass col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/sclass6.jpg"
+            ><img src="img/sclass6.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item sclass col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/sclass7.jpg"
+            ><img src="img/sclass7.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+
+        <div class="store-item vision6 col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/vision 6-1.jpg"
+            ><img src="img/vision 6-1.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item vision6 col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/vision 6-2.jpg"
+            ><img src="img/vision 6-2.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item vision6 col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/vision 6-3.jpg"
+            ><img src="img/vision 6-3.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item vision6 col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/vision 6-4.jpg"
+            ><img src="img/vision 6-4.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item vision6 col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/vision 6-5.jpg"
+            ><img src="img/vision 6-5.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+        <div class="store-item vision6 col-12 col-sm-6 col-lg-4 col-xl-3">
+          <a data-fslightbox href="img/vision 6-6.jpg"
+            ><img src="img/vision 6-6.jpg" alt="" class="store-img"
+          /></a>
+        </div>
+      </div>
+    </main>
+    <script src="./lib/fslightbox.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
